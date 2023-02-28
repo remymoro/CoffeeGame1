@@ -1135,9 +1135,9 @@ footer #network-container img:hover {
 @media screen and (max-width: 470px) {
 
     /*** ⬇️ Titre Slider ⬇️ ***/
-
-    .title { font-size: x-large !important; }
-    .slogan { font-size: large !important; }
+    
+    .title { font-size: larger !important; }
+    .slogan { font-size: medium !important; }
     
     /*** ⬆️ Titre Slider ⬆️ ***/
 

@@ -1134,7 +1134,14 @@ footer #network-container img:hover {
 /* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '470px' ⬇️ */   
 @media screen and (max-width: 470px) {
 
-     /*** ⬇️ Cards des Produits & Jeux ⬇️ ***/
+    /*** ⬇️ Titre Slider ⬇️ ***/
+
+    .container-title { margin: 0 5px; }
+    
+    /*** ⬆️ Titre Slider ⬆️ ***/
+
+
+    /*** ⬇️ Cards des Produits & Jeux ⬇️ ***/
 
     #section-product .container-product .product_card, #section-game .container-game .game_card { width: 100%; }
  

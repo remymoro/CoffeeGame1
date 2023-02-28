@@ -764,7 +764,160 @@ strong {
     margin: 0.8em 0.5em;
 }   
 
-/*** ⬆️ Page des Jeux ⬆️ ***/
+/*** ⬆️ Page teams ⬆️ ***/
+
+#teams{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+.teams_title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+}
+
+#teams .teams_picture{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+
+
+#teams .teams_picture img{
+    width: 100%;
+    height: 100%;
+    /* filter: drop-shadow(0 0 0.78rem #4444); */
+}
+
+
+
+.teams_card{
+    height: 55vh;
+
+}
+
+.teams_card{
+    width: 100%;
+    position: absolute;
+    bottom: -151px;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    place-items: center;
+    background-color: #444444;
+    border-radius: 10px;
+
+}
+
+
+
+
+.teams_card .card {
+    width: 255px;
+    height: 250px;
+    background-color: #d9fffc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: 0.25s;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 70px 60px -50px #444;
+}
+.teams_card .card:hover{
+    transform: translateY(-25px);
+}
+
+
+.teams_card .card:nth-child(2) {
+    width: 255px;
+    height: 250px;
+    background-color: #ffe0e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: 0.25s;
+    align-items: center;
+}
+.teams_card .card:nth-child(3) {
+    width: 255px;
+    height: 250px;
+    background-color: #e4ffc7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: 0.25s;
+    align-items: center;
+}
+.teams_card .card:nth-child(4) {
+    width: 255px;
+    height: 250px;
+    background-color: #e6c892;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: 0.25s;
+    align-items: center;
+}
+.teams_card .card:nth-child(1):hover {
+    box-shadow: 0px 70px 60px -50px #ffe0e0;
+}
+
+
+
+.teams_card .card:nth-child(2):hover {
+    box-shadow: 0px 70px 60px -50px #ffe0e0;
+}
+
+.teams_card .card:nth-child(3):hover {
+    box-shadow: 0px 70px 60px -50px #ffe0e0;
+}
+
+.teams_card .card:nth-child(4):hover {
+    box-shadow: 0px 70px 60px -50px #ffe0e0;
+}
+
+.teams_card .card:nth-child(2):hover {
+    box-shadow: 0px 70px 60px -50px #ffe0e0;
+}
+
+
+
+
+
+
+
+
+
+.teams_card .card .card_picture{
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 33px 60px -35px black;
+    
+}
+
+
+
+
+.teams_card .card .card_picture img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+
+
+
 
 /* --------------------------------------------------- */
 
@@ -772,12 +925,13 @@ strong {
 
 
 
-.contact {
-  padding: 10rem 1rem;
+#contact {
+ padding: 10rem 1rem; 
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #333;
+  background-color: #333;
+  
 }
 
 
@@ -785,7 +939,7 @@ strong {
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  justify-content: flex-end;
 }
 
 .contact-form input {
@@ -1027,3 +1181,34 @@ strong {
  }
  
  
+ 
+@media only screen and (max-width: 1044px) {
+
+
+  
+    .teams_card{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: -250px;
+        display: grid;
+        grid-template-columns:repeat(2,2fr);
+        grid-template-rows: 1fr;
+        place-items: center;
+        border-radius: 10px;
+        gap: 0.7rem;
+       
+    }
+
+
+
+  #contact{
+    width: 100%;
+    padding: 20rem 1rem;
+  }
+      
+    
+    
+}
+
+

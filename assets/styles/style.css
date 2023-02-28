@@ -1136,7 +1136,9 @@ footer #network-container img:hover {
 
     /*** ⬇️ Titre Slider ⬇️ ***/
 
-    .container-title { margin: 0 10px; }
+    .container-title { margin: 0 5px; }
+    .title { font-size: small; }
+    .slogan { font-size: smaller; }
     
     /*** ⬆️ Titre Slider ⬆️ ***/
 

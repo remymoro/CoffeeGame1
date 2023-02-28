@@ -1190,9 +1190,7 @@ strong {
     }
 
 
-
-
-  
+    
     .teams_card{
         width: 100%;
         height: 100%;
@@ -1200,7 +1198,7 @@ strong {
         bottom: -250px;
         display: grid;
         grid-template-columns:repeat(2,1fr);
-        grid-template-rows: 1fr;
+        grid-template-rows: 2fr;
         place-items: center;
         border-radius: 10px;
         gap: 0.7rem;
@@ -1208,6 +1206,10 @@ strong {
     }
 
 
+    #teams .teams_card .card{
+     width: 200px;
+     height: 200px;
+    }
 
   #contact{
     width: 100%;

@@ -1184,6 +1184,13 @@ strong {
  
 @media only screen and (max-width: 1044px) {
 
+    #teams .teams_picture img{
+       width:300px
+        
+    }
+
+
+
 
   
     .teams_card{
@@ -1192,7 +1199,7 @@ strong {
         position: absolute;
         bottom: -250px;
         display: grid;
-        grid-template-columns:repeat(2,2fr);
+        grid-template-columns:repeat(2,1fr);
         grid-template-rows: 1fr;
         place-items: center;
         border-radius: 10px;
@@ -1206,7 +1213,8 @@ strong {
     width: 100%;
     padding: 20rem 1rem;
   }
-      
+    
+  
     
     
 }

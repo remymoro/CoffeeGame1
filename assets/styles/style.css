@@ -1476,6 +1476,8 @@ footer #network-container img:hover {
 
     #section-teams { padding-top: 300px; }
 
+    #section-teams .container-teams_card .teams_card { bottom: -600px; }
+
     #section-teams .container-teams_card .teams_card .card {
 
         width: 200px !important;

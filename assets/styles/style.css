@@ -1152,11 +1152,11 @@ footer #network-container img:hover {
     #section-contact .container-contact { 
 
         display: flex;
-        flex-direction: column;
+        justify-content: space-around;
     }
 
     #section-contact .container-contact .contact-info .container-info  { 
-        
+
         width: 100%;
         line-height: 65px;
         margin: 10px 5px;

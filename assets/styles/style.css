@@ -850,7 +850,7 @@ i { font-size: 45px; }
 footer {
 
     background: #444;
-    padding: 5rem 1rem;
+    padding: 5rem 3rem;
     display: flex;
     justify-content: space-between;
     color: white;

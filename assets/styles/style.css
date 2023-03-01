@@ -999,7 +999,7 @@ footer #network-container img:hover {
     #section-product .container-product .product_card, #section-game .container-game .game_card {
 
         width: 80%;
-        margin:  0 auto;
+        margin: 0 auto;
     }
  
     #section-product .container-product .product_cards, #section-game .container-game .game_cards {
@@ -1023,7 +1023,8 @@ footer #network-container img:hover {
     }
 
     #container-product_game .subcontainer-product_game {
-
+        
+        flex-direction: column;
         height: 500px;
     }    
 
@@ -1149,11 +1150,12 @@ footer #network-container img:hover {
     #container-product_game {
 
         width: 90%;
-        height: 800px;
+        height: 1000px;
     }
 
     #container-product_game .subcontainer-product_game {
 
+        flex-direction: column;
         height: 500px;
     }    
 

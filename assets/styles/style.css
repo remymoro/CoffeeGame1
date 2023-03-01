@@ -1155,10 +1155,10 @@ footer #network-container img:hover {
         flex-direction: column;
     }
 
-    #section-contact .container-contact .contact-info .container-info  { width: 100%; }
-
     #section-contact .container-contact .contact-info .container-info  { 
         
+        align-items: center;
+        width: 100%;
         line-height: 65px;
         margin: 10px 5px;
     }

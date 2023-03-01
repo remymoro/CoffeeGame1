@@ -1149,33 +1149,44 @@ footer #network-container img:hover {
     
     /*** ⬇️ Section Contact ⬇️ ***/
 
+    #section-contact { 
+        
+        padding: 300px 0 0 0; 
+    
+    }
     #section-contact .container-contact { 
 
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
+    #section-contact .container-contact .contact-info { width: 100%; }
+    
     #section-contact .container-contact .contact-info .container-info  { 
         
-        flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        align-content: center;
         width: 100%;
-        line-height: 65px;
-        margin: 10px 5px;
+        line-height: normal;
+        margin: 15px 5px 30px 0;
     }
 
-    #section-contact .container-contact .contact-info .container-info .icon-contact { 
-        
-        width: 16px;
-        height: 16px; 
-    }
+    #section-contact .container-contact .contact-info .container-info .icon-contact { gap: 20px; }
+
+    #section-contact .container-contact .contact-info .container-info .icon-contact, #section-contact .container-contact .contact-info .container-info .text-contact {  margin: 0; }
 
     #section-contact .container-contact .contact-info .container-info .text-contact p { font-size: small; }
 
     #section-contact .container-contact .contact-info .container-info .text-contact p:first-child { line-height: 15px !important; }
 
-    #section-contact .container-contact .contact-info .container-contact .contact-map { width: 100%; }
-    #section-contact .container-contact .contact-info .container-contact .contact-map iframe { width: 50%; }
+    #section-contact .container-contact .contact-map { 
+
+        display: flex;
+        justify-content: center;
+        width: 100%; 
+    }
+    #section-contact .container-contact .contact-map iframe { width: 95%; }
     /*** ⬆️ Section Contact  ⬆️ ***/
     
 }
@@ -1271,8 +1282,6 @@ footer #network-container img:hover {
 
 /* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '750px' ⬇️ */ 
 @media screen and (max-width: 750px) {
-
-
 
     /*** ⬇️ Section pour l'Équipe ⬇️ ***/
 

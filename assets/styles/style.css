@@ -1111,6 +1111,22 @@ footer #network-container img:hover {
 /* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '560px' ⬆️ */
 @media screen and (max-width: 560px) {
 
+    /*** ⬇️ Titre Slider ⬇️ ***/
+
+    .container-title { margin: 0 15px; }
+    .title { font-size: larger !important; }
+    .slogan { font-size: medium !important; }
+    
+    /*** ⬆️ Titre Slider ⬆️ ***/
+
+
+    /*** ⬇️ Cards d'Infos ⬇️ ***/
+
+    .card_text { font-size: small;}
+
+    /*** ⬆️ Cards d'Infos ⬆️ ***/
+    
+
     /*** ⬇️ Cards des Produits & Jeux ⬇️ ***/
 
     #section-product .container-product .product_card, #section-game .container-game .game_card { width: 100%; }
@@ -1133,20 +1149,6 @@ footer #network-container img:hover {
 
 /* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '470px' ⬇️ */   
 @media screen and (max-width: 470px) {
-
-    /*** ⬇️ Titre Slider ⬇️ ***/
-
-    .container-title { margin: 0 15px; }
-    .title { font-size: larger !important; }
-    .slogan { font-size: medium !important; }
-    
-    /*** ⬆️ Titre Slider ⬆️ ***/
-
-    /*** ⬇️ Cards d'Infos ⬇️ ***/
-
-    .card_text { font-size: small;}
-
-    /*** ⬆️ Cards d'Infos ⬆️ ***/
 
     /*** ⬇️ Cards des Produits & Jeux ⬇️ ***/
 

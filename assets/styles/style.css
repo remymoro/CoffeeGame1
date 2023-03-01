@@ -1193,9 +1193,11 @@ footer #network-container img:hover {
 
     #section-contact .contact-form { 
 
-        width: 90%; 
+        width: 780%; 
         padding: 3rem 2rem;
     }
+
+    #section-contact .container-contact div { max-width: 300px; }
 
     /*** ⬆️ Section Contact  ⬆️ ***/
     

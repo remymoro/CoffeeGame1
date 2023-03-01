@@ -1229,6 +1229,13 @@ footer #network-container img:hover {
         
         font-size: small;
     }
+
+    footer #network-container {
+
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
             
     /*** ⬆️ Footer ⬆️ ***/
     

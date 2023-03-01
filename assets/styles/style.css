@@ -516,18 +516,28 @@ i { font-size: 45px; }
 
 #section-product_game {
 
-   display: flex;
+/*    display: flex;
    justify-content: center;
    flex-direction: column;
    align-items: center;
-   padding: 50px 0;
+   padding: 50px 0; */
+
+   
+   max-width: 1500px;
+   margin: 0 auto 600px auto;
+   padding: 100px 10px;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, 300px);
+   grid-auto-rows: 150px;
+   justify-content: center;
 }
 
 #container-product_game {
 
+    
     width: 1200px;
     height: 800px;
-    background: #333;
+    background-color: #333;
     box-shadow: 0px 0px 10px 2px rgba(103, 62, 153, 0.6);
     border-radius: 10px;
 }
@@ -946,7 +956,34 @@ footer #network-container img:hover {
     #section-teams .teams_card { width: 95% !important; } 
 
     /*** ⬆️ Section Équipes ⬆️ ***/
- 
+
+    /*** ⬇️ Section des produits et jeux ⬇️ ***/
+
+    #section-product_game {
+
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: auto;
+        margin-bottom: 0;
+    }
+
+    #container-product_game { 
+        
+        width: 200%; 
+        height: auto;
+    }
+
+    #container-product_game .subcontainer-product_game .content-product_game h2 { 
+            
+        margin-bottom: 5px; 
+        font-size: larger;
+        overflow-y: hidden;
+    }
+
+    #container-product_game .subcontainer-product_game .content-product_game h2::before { bottom: 15px; }
+
+    #container-product_game .subcontainer-product_game .content-product_game .button  { margin-bottom: 20px; }
+    
+    /*** ⬆️ Section des produits et jeux ⬆️ ***/
 }
 /* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '1100px' ⬆️ */    
  
@@ -1016,28 +1053,10 @@ footer #network-container img:hover {
 
     /*** ⬇️ Section des produits et jeux ⬇️ ***/
 
-    #container-product_game {
-
-        width: 90%;
-        height: 1000px;
-    }
-
-    #container-product_game .subcontainer-product_game {
-        
-        flex-direction: column;
-        height: 500px;
-    }    
-
-    #container-product_game .subcontainer-product_game .content-product_game h2 { 
-    
-        padding: 20px 0;
-        overflow-y: hidden;
-    }
-
-    #container-product_game .subcontainer-product_game .content-product_game h2::before { bottom: 20px; }
+    #container-product_game .subcontainer-product_game .content-product_game h2 { font-size: large; }
+    #container-product_game .subcontainer-product_game .content-product_game h2::before { bottom: 15px; }
 
     /*** ⬆️ Section des produits et jeux ⬆️ ***/
-
 
     /*** ⬇️ Who (Qui Sommes-Nous) ⬇️ ***/
 
@@ -1109,6 +1128,133 @@ footer #network-container img:hover {
 
 /* ----------------------------------------------------------------- */
 
+/* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '1025px' ⬇️ */ 
+@media screen and (max-width: 1025px) {
+
+    /*** ⬇️ Section des produits et jeux ⬇️ ***/
+
+    #container-product_game .subcontainer-product_game .content-product_game #title_product::before { bottom: 0px; }
+
+    /*** ⬆️ Section des produits et jeux ⬆️ ***/
+    
+}
+/* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '1025px' ⬇️ */ 
+
+/* ----------------------------------------------------------------- */
+
+/* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '950px' ⬇️ */ 
+@media screen and (max-width: 950px) {
+
+    /*** ⬇️ Section des produits et jeux ⬇️ ***/
+
+    #container-product_game .subcontainer-product_game .content-product_game #title_product { margin-bottom: 10px; }
+
+    /*** ⬆️ Section des produits et jeux ⬆️ ***/
+    
+}
+/* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '950px' ⬇️ */ 
+
+/* ----------------------------------------------------------------- */
+
+/* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '915px' ⬇️ */ 
+@media screen and (max-width: 915px) {
+
+    /*** ⬇️ Section des produits et jeux ⬇️ ***/
+
+    #container-product_game .subcontainer-product_game .content-product_game { padding: 30px 10px; }
+    #container-product_game .subcontainer-product_game .content-product_game #title_game::before { bottom: 0; }
+
+    /*** ⬆️ Section des produits et jeux ⬆️ ***/
+    
+}
+/* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '915px' ⬇️ */ 
+
+/* ----------------------------------------------------------------- */
+
+/* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '856px' ⬇️ */ 
+@media screen and (max-width: 856px) {
+
+    /*** ⬇️ Section des produits et jeux ⬇️ ***/
+
+    #container-product_game .subcontainer-product_game .content-product_game { padding: 20px 5px; }
+    #container-product_game .subcontainer-product_game .content-product_game #title_game::before { bottom: 0; }
+
+    /*** ⬆️ Section des produits et jeux ⬆️ ***/
+    
+}
+/* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '856px' ⬇️ */ 
+
+/* ----------------------------------------------------------------- */
+
+/* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '800px' ⬇️ */ 
+@media screen and (max-width: 800px) {
+
+    /*** ⬇️ Section des produits et jeux ⬇️ ***/
+
+    #container-product_game  { 
+        
+        height: 1800px; 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: unset;
+        box-shadow: none;
+    }
+
+    #container-product_game .subcontainer-product_game { 
+        
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        background-color: #333;
+        box-shadow: 0px 0px 10px 2px rgba(103, 62, 153, 0.6);
+        border-radius: 10px;
+    }
+
+    #container-product_game .subcontainer-product_game .image-product_game img { 
+
+                        /* -------------------- */
+
+        border-top-left-radius: unset !important;
+        border-top-right-radius: unset !important;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+                        /* -------------------- */
+
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+
+    #container-product_game .subcontainer-product_game .image-product_game { border-top: rgba(255, 255, 255, 0.721) solid 1px; }
+
+    #container-product_game .subcontainer-product_game:last-child .image-product_game { order: 1; }
+
+
+    #container-product_game .subcontainer-product_game .content-product_game, #container-product_game .subcontainer-product_game .image-product_game { width: 100%; }
+
+
+    #container-product_game .subcontainer-product_game .content-product_game h2::before { bottom: 20px !important; }
+
+    /*** ⬆️ Section des produits et jeux ⬆️ ***/
+    
+}
+/* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '800px' ⬇️ */ 
+
+/* ----------------------------------------------------------------- */
+
+/* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '750px' ⬇️ */ 
+@media screen and (max-width: 750px) {
+
+    #section-product_game {
+        
+        margin-bottom: -200px;
+    }
+    
+}
+/* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '750px' ⬇️ */ 
+
+/* ----------------------------------------------------------------- */
+
 /* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '560px' ⬆️ */
 @media screen and (max-width: 560px) {
 
@@ -1143,32 +1289,6 @@ footer #network-container img:hover {
     #section-product .container-product .card, #section-game .container-game .card { width: 100%; }
 
     /*** ⬆️ Cards des Produits & Jeux ⬇️ ***/
-
-    
-    /*** ⬇️ Section des produits et jeux ⬇️ ***/
-
-    #container-product_game {
-
-        width: 90%;
-        height: 1000px;
-    }
-
-    #container-product_game .subcontainer-product_game {
-
-        flex-direction: column;
-        height: 500px;
-        width: 100%;
-    }    
-
-    #container-product_game .subcontainer-product_game .content-product_game h2 { 
-    
-        padding: 20px 0;
-        overflow-y: hidden;
-    }
-
-    #container-product_game .subcontainer-product_game .content-product_game h2::before { bottom: 20px; }
-
-    /*** ⬆️ Section des produits et jeux ⬆️ ***/
 }
 /* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '560px' ⬆️ */    
 
@@ -1192,8 +1312,37 @@ footer #network-container img:hover {
     #section-product .container-product .card, #section-game .container-game .card { width: 100%; }
     
     /*** ⬆️ Cards des Produits & Jeux ⬇️ ***/
+
+
+    /*** ⬇️ Section pour l'Équipe ⬇️ ***/
+
+    #section-teams .teams_picture img { width: 300px; }
+
+
+    #section-teams .teams_picture {
+
+        height: 300px;
+        width: 300px;
+    } 
+
+    #section-teams .container-teams_card .teams_card { bottom: -250px; }
+
+    #section-teams .container-teams_card .teams_card .card {
+
+        width: 150px !important;
+        height: 150px !important;
+    }
+    
+    #section-teams .teams_card .card .card_picture {
+
+        width: 100px;
+        height: 100px;
+    }
+
+    /*** ⬆️ Section pour l'Équipe ⬇️  ***/
 }
 /* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '470px' ⬆️ */   
+
  
 /**********************************************/
 /*        MEDIAS QUERIES (Responsive)         */

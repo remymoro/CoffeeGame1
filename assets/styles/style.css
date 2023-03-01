@@ -1163,7 +1163,7 @@ footer #network-container img:hover {
 
     #section-contact .container-contact .contact-info .container-info .text-contact p { font-size: small; }
 
-    #section-contact .container-contact .contact-info .container-info .text-contact p:first-child { line-height: 0 !important; }
+    #section-contact .container-contact .contact-info .container-info .text-contact p:first-child { line-height: 10px !important; }
 
     #section-contact .container-contact .contact-info .container-contact .contact-map { width: 100%; }
     #section-contact .container-contact .contact-info .container-contact .contact-map iframe { width: 50%; }

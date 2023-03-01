@@ -1337,7 +1337,7 @@ footer #network-container img:hover {
     
     /*** ⬇️ Cards des Jeux ⬇️ ***/
     
-    #section-game { margin: 150px 0;}
+    #section-game { margin: 150px 0; }
 
     #section-game .container-game .game_card {
 
@@ -1476,7 +1476,7 @@ footer #network-container img:hover {
 
     #section-teams { padding-top: 300px; }
 
-    #section-teams .container-teams_card .teams_card { bottom: -550px; }
+    #section-teams .container-teams_card .teams_card { bottom: -400px; }
     
     #section-teams .container-teams_card .teams_card .card {
 

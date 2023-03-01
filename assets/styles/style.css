@@ -1152,6 +1152,7 @@ footer #network-container img:hover {
     #section-contact .container-contact { 
 
         display: flex;
+        flex-direction: row;
         justify-content: space-around;
     }
 

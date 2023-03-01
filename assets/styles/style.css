@@ -1157,15 +1157,17 @@ footer #network-container img:hover {
 
     #section-contact .container-contact .contact-info .container-info  { width: 100%; }
 
-    #section-contact .container-contact .contact-info .container-info  { line-height: 65px;}
+    #section-contact .container-contact .contact-info .container-info  { 
+        
+        line-height: 65px;
+        margin: 10px 5px;
+    }
 
     #section-contact .container-contact .contact-info .container-info .icon-contact i { 
         
         width: 16px;
         height: 16px; 
     }
-
-    #section-contact .container-contact .contact-info .container-info .text-contact { margin: 10px 5px; }
 
     #section-contact .container-contact .contact-info .container-info .text-contact p { font-size: small; }
 

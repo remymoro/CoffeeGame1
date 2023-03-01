@@ -1153,6 +1153,8 @@ footer #network-container img:hover {
         
         padding: 300px 0 0 0; 
         width: 100%;
+        justify-content: center;
+        align-items: center;
     }
     #section-contact .container-contact { 
 
@@ -1186,7 +1188,10 @@ footer #network-container img:hover {
         justify-content: center;
         width: 100%; 
     }
-    #section-contact .container-contact .contact-map iframe { width: 80%; }
+    
+    #section-contact .container-contact .contact-map iframe { width: 90%; }
+
+    #section-contact .contact-form { width: 90%; }
     /*** ⬆️ Section Contact  ⬆️ ***/
     
 }

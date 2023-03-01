@@ -1575,6 +1575,17 @@ footer #network-container img:hover {
 
     /*** ⬆️ Section pour l'Équipe ⬇️  ***/
 
+    
+    
+    /*** ⬇️ Footer ⬇️ ***/
+    
+    footer #network-container img { 
+        
+        width: auto;
+        height: 24px; 
+    }
+            
+    /*** ⬆️ Footer ⬆️ ***/
 }
 /* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '470px' ⬆️ */   
 

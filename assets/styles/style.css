@@ -1161,8 +1161,8 @@ footer #network-container img:hover {
 
     #section-contact .container-contact .contact-info .container-info .icon-contact i { 
         
-        width: 32px !important;
-        height: 32px !important; 
+        width: 16px;
+        height: 16px; 
     }
 
     #section-contact .container-contact .contact-info .container-info .text-contact { margin: 10px 5px; }

@@ -763,9 +763,9 @@ i { font-size: 45px; }
     margin: 0 auto;
 }
 
-#section-contact .contact-info { width: 40%; }
+#section-contact .container-contact .contact-info { width: 40%; }
 
-#section-contact .contact-info .container-info { 
+#section-contact .container-contact .contact-info .container-info { 
 
     display: flex;
     justify-content: center;
@@ -774,9 +774,9 @@ i { font-size: 45px; }
     line-height: 100px;
 }
 
-#section-contact .contact-info .container-info .icon-contact i, #section-contact .contact-map iframe { filter: drop-shadow(0 0 0.20rem black);}
+#section-contact .container-contact .contact-info .container-info .icon-contact i, #section-contact .contact-map iframe { filter: drop-shadow(0 0 0.20rem black);}
     
-#section-contact .contact-info .container-info .icon-contact,  #section-contact .contact-info .container-info .text-contact { 
+#section-contact .container-contact .contact-info .container-info .icon-contact,  #section-contact .contact-info .container-info .text-contact { 
 
     display: flex;
     flex-direction: column;
@@ -950,6 +950,7 @@ footer #network-container img:hover {
     #section-teams .teams_card { width: 95% !important; } 
 
     /*** ⬆️ Section Équipes ⬆️ ***/
+
 
     /*** ⬇️ Section des produits et jeux ⬇️ ***/
 
@@ -1148,17 +1149,14 @@ footer #network-container img:hover {
     
     /*** ⬇️ Section Contact ⬇️ ***/
 
-    #section-contact .container-contact { 
+    #section-contact .container-contact .contact-info .container-contact { 
 
         display: flex;
         flex-direction: column;
-    }
-    #section-contact .container-contact .contact-info { 
-
         line-height: 50px;
     }
 
-    #section-contact .container-contact .contact-map iframe { width: 95%; }
+    #section-contact .container-contact .contact-info .container-contact .contact-map iframe { width: 95%; }
     /*** ⬆️ Section Contact  ⬆️ ***/
     
 }

@@ -1153,6 +1153,10 @@ footer #network-container img:hover {
         display: flex;
         flex-direction: column;
     }
+    #section-contact .container-contact .contact-info { 
+
+        line-height: 50px;
+    }
 
     #section-contact .container-contact .contact-map iframe { width: 95%; }
     /*** ⬆️ Section Contact  ⬆️ ***/

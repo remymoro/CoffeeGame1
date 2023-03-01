@@ -247,7 +247,7 @@ header .navbar .nav-container .hamburger-lines .line3 {
 header .navbar .menu-items {
 
     padding-top: 120px;
-    height: 100vh;
+    height: 115vh;
     width: 65%;
     transform: translate(500%, 0%);
     display: flex;

@@ -649,7 +649,7 @@ i { font-size: 45px; }
 
     width: 100%;
     position: absolute;
-    bottom: -420px;
+    bottom: -250px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     place-items: center;
@@ -1235,10 +1235,6 @@ footer #network-container img:hover {
 
 /* ----------------------------------------------------------------- */
 
-
-
-/* ----------------------------------------------------------------- */
-
 /* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '560px' ⬆️ */
 @media screen and (max-width: 560px) {
 
@@ -1273,6 +1269,13 @@ footer #network-container img:hover {
     #section-product .container-product .card, #section-game .container-game .card { width: 100%; }
 
     /*** ⬆️ Cards des Produits & Jeux ⬇️ ***/
+
+
+    /*** ⬇️ Section des produits et jeux ⬇️ ***/
+
+    #section-product_game { margin-bottom: 5px; }
+
+    /*** ⬆️ Section des produits et jeux ⬆️ ***/
 }
 /* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '560px' ⬆️ */    
 

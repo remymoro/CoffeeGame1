@@ -1282,6 +1282,7 @@ footer #network-container img:hover {
         flex-direction: column;
         align-items: center;
         gap: 25px;
+        width: 100%;
     }
 
     footer #info-footer {

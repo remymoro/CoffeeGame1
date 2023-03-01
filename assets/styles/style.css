@@ -1159,6 +1159,12 @@ footer #network-container img:hover {
 
     #section-contact .container-contact .contact-info .container-info  { line-height: 65px;}
 
+    #section-contact .container-contact .contact-info .container-info .icon-contact i { 
+        
+        width: 32px;
+        height: 32px; 
+    }
+
     #section-contact .container-contact .contact-info .container-info .text-contact { margin: 10px 5px; }
 
     #section-contact .container-contact .contact-info .container-info .text-contact p { font-size: small; }

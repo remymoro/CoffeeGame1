@@ -1567,6 +1567,13 @@ footer #network-container img:hover {
     }
 
     /*** ⬆️ Section pour l'Équipe ⬇️  ***/
+
+
+        
+    /*** ⬇️ Section Contact ⬇️ ***/
+
+    #section-contact { padding: 400px 0 100px 0; }
+    /*** ⬆️ Section Contact  ⬆️ ***/
 }
 /* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '560px' ⬆️ */    
 

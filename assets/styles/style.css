@@ -1125,7 +1125,7 @@ footer #network-container img:hover {
     .card_text { font-size: small;}
 
     /*** ⬆️ Cards d'Infos ⬆️ ***/
-    
+
 
     /*** ⬇️ Cards des Produits & Jeux ⬇️ ***/
 
@@ -1142,6 +1142,30 @@ footer #network-container img:hover {
     #section-product .container-product .card, #section-game .container-game .card { width: 100%; }
 
     /*** ⬆️ Cards des Produits & Jeux ⬇️ ***/
+
+    
+    /*** ⬇️ Section des produits et jeux ⬇️ ***/
+
+    #container-product_game {
+
+        width: 90%;
+        height: 800px;
+    }
+
+    #container-product_game .subcontainer-product_game {
+
+        height: 500px;
+    }    
+
+    #container-product_game .subcontainer-product_game .content-product_game h2 { 
+    
+        padding: 20px 0;
+        overflow-y: hidden;
+    }
+
+    #container-product_game .subcontainer-product_game .content-product_game h2::before { bottom: 20px; }
+
+    /*** ⬆️ Section des produits et jeux ⬆️ ***/
 }
 /* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '560px' ⬆️ */    
 

@@ -515,13 +515,6 @@ i { font-size: 45px; }
 
 
 #section-product_game {
-
-/*    display: flex;
-   justify-content: center;
-   flex-direction: column;
-   align-items: center;
-   padding: 50px 0; */
-
    
    max-width: 1500px;
    margin: 0 auto 600px auto;
@@ -1242,16 +1235,7 @@ footer #network-container img:hover {
 
 /* ----------------------------------------------------------------- */
 
-/* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '750px' ⬇️ */ 
-@media screen and (max-width: 750px) {
 
-    /*** ⬇️ Section des produits et jeux ⬇️ ***/
-
-    #section-product_game { margin-bottom: -200px; }
-    
-    /*** ⬆️ Section des produits et jeux ⬆️ ***/
-}
-/* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '750px' ⬇️ */ 
 
 /* ----------------------------------------------------------------- */
 
@@ -1289,13 +1273,6 @@ footer #network-container img:hover {
     #section-product .container-product .card, #section-game .container-game .card { width: 100%; }
 
     /*** ⬆️ Cards des Produits & Jeux ⬇️ ***/
-
-
-    /*** ⬇️ Section des produits et jeux ⬇️ ***/
-
-    #section-product_game { margin-bottom: -300px; }
-
-    /*** ⬆️ Section des produits et jeux ⬆️ ***/
 }
 /* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '560px' ⬆️ */    
 

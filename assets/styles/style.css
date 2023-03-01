@@ -1157,6 +1157,7 @@ footer #network-container img:hover {
 
         flex-direction: column;
         height: 500px;
+        width: 100%;
     }    
 
     #container-product_game .subcontainer-product_game .content-product_game h2 { 

@@ -1147,7 +1147,11 @@ footer #network-container img:hover {
     
     /*** ⬇️ Section Contact ⬇️ ***/
 
-    #section-contact .container-contact {  flex-direction: column; }
+    #section-contact .container-contact { 
+
+        display: flex;
+        flex-direction: column;
+    }
     /*** ⬆️ Section Contact  ⬆️ ***/
     
 }

@@ -1158,7 +1158,11 @@ footer #network-container img:hover {
 
     /*** ⬇️ Header ⬇️ ***/
 
-    header { height: 15vh; }
+    header { 
+        
+        width: 100vw;
+        height: 15vh; 
+    }
     header .logo { width: 15%; }
     
     header .navbar { display: block !important; }

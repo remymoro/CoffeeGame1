@@ -769,6 +769,7 @@ i { font-size: 45px; }
 
     display: flex;
     justify-content: center;
+    align-content: center;
     color: white;
     line-height: 100px;
 }

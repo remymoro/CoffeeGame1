@@ -1228,10 +1228,8 @@ footer #network-container img:hover {
 
     #section-contact { 
         
-        min-width: fit-content;
         max-width: 950px;
         padding: 400px 0 100px 0; 
-        width: 100vw;
         justify-content: center;
         align-items: center;
     }

@@ -1238,11 +1238,13 @@ footer #network-container img:hover {
 /* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '750px' ⬇️ */ 
 @media screen and (max-width: 750px) {
 
-    /*** ⬇️ Section des produits et jeux ⬇️ ***/
 
-    #section-product_game { padding-bottom: 150px; }
-    
-    /*** ⬆️ Section des produits et jeux ⬆️ ***/
+
+    /*** ⬇️ Section pour l'Équipe ⬇️ ***/
+
+    #section-teams { padding-top: 10px; }
+
+    /*** ⬆️ Section pour l'Équipe ⬇️  ***/
 }
 /* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '750px' ⬇️ */ 
 

@@ -1208,6 +1208,7 @@ footer #network-container img:hover {
         width: 100%;
         height: 100%;
     }
+    #section-game .container-game .game_card .game_picture img { width: 100%; }
     
 
     /*** ⬆️ Cards des Jeux ⬇️ ***/

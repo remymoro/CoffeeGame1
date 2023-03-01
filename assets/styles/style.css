@@ -1146,6 +1146,26 @@ footer #network-container img:hover {
     #container-product_game .subcontainer-product_game .content-product_game #title_product::before { bottom: 0px; }
 
     /*** ⬆️ Section des produits et jeux ⬆️ ***/
+
+
+    /*** ⬇️ Cards des Produits & Jeux ⬇️ ***/
+
+    #section-product .container-product .product_card, #section-game .container-game .game_card {
+
+        width: 80%;
+        height: 100%;
+    }
+    
+    #section-product .container-product .product_cards, #section-game .container-game .game_cards {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    #section-product .container-product .card, #section-game .container-game .card { width: 70%; }
+
+    /*** ⬆️ Cards des Produits & Jeux ⬇️ ***/
     
 }
 /* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '1025px' ⬇️ */ 
@@ -1163,6 +1183,7 @@ footer #network-container img:hover {
         width: 100vw;
         height: 15vh; 
     }
+
     header .logo { width: 15%; }
     
     header .navbar { display: block !important; }

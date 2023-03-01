@@ -142,66 +142,62 @@ header {
     box-shadow:rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     background-color:rgb(244, 236, 222);
     z-index: 89;
+}
+
+header .navbar-line { width: 90%; }
+
+header .logo {
+
+    background: url(../images/global/coffeegame_logo.png) center center;
+    background-position: center;
+    background-size: cover;
+    width: 10%;
 
 }
 
 header li:hover { text-decoration: underline; }
 
-.logo {
-
-    background: url(../images/global/coffeegame_logo.png) center center;
-    background-position: center;
-    background-size: cover; 
-    height: 100%;
-    display: flex;
-    width: 10%;
-}
-
 /* --------------------------------------- */
 
-.navbar {
+header .navbar {
 
-    width: 40vh;
     background-color: rgb(244, 236, 222);
     color: #eee;
-
+    width: 90%;
 }
 
-.nav-container {
+
+header .navbar .nav-container {
 
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 62px;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
 }
 
-.navbar .menu-items { display: flex; }
+header .navbar .menu-items { display: flex; }
 
 
-.navbar .nav-container a {
+header .navbar .nav-container a {
 
     text-decoration: none;
     color: #0e2431;
     font-weight: 500;
-    font-size: 1.2rem;
-    padding: 0.7rem;
+    font-size: 0.8rem;
 }
 
-.navbar .nav-container a:hover { font-weight: bolder; }
-
-.nav-container {
-
-    display: block;
-    position: relative;
-    height: 60px;
+header .navbar .nav-container a:hover { 
+    
+    font-weight: bold; 
+    font-size: 0.7rem;
 }
 
-.nav-container .checkbox {
+header .navbar .nav-container .checkbox {
 
     position: absolute;
     display: block;
     height: 26px;
-    width: 32px;
+    width: 30%;
     top: 45px;
     right: 20px;
     z-index: 9999;
@@ -209,7 +205,7 @@ header li:hover { text-decoration: underline; }
     cursor: pointer;
 }
 
-.nav-container .hamburger-lines {
+header .navbar .nav-container .hamburger-lines {
 
     display: block;
     height: 26px;
@@ -224,7 +220,7 @@ header li:hover { text-decoration: underline; }
     cursor: pointer;
 }
 
-.nav-container .hamburger-lines .line {
+header .navbar .nav-container .hamburger-lines .line {
 
     display: block;
     height: 4px;
@@ -233,26 +229,26 @@ header li:hover { text-decoration: underline; }
     background: #0e2431;
 }
 
-.nav-container .hamburger-lines .line1 {
+header .navbar .nav-container .hamburger-lines .line1 {
 
     transform-origin: 0% 0%;
     transition: transform 0.4s ease-in-out;
 }
 
-.nav-container .hamburger-lines .line2 { transition: transform 0.2s ease-in-out; }
+header .navbar .nav-container .hamburger-lines .line2 { transition: transform 0.2s ease-in-out; }
 
-.nav-container .hamburger-lines .line3 {
+header .navbar .nav-container .hamburger-lines .line3 {
 
     transform-origin: 0% 100%;
     transition: transform 0.4s ease-in-out;
 }
 
-.navbar .product-items {
+header .navbar .menu-items {
 
     padding-top: 120px;
     height: 100vh;
-    width: 100%;
-    transform: translate(500%,0%);
+    width: 30%;
+    transform: translate(225%, 0%);
     display: flex;
     flex-direction: column;
     transition: transform 1.5s ease-in-out;
@@ -261,23 +257,25 @@ header li:hover { text-decoration: underline; }
     color: #eee;
 }
 
-.navbar .menu-items li {
+header .navbar .menu-items li {
 
+    padding: auto 10px;
     margin-top: -5%;
     margin-bottom: 1.2rem;
-    font-size: 1.5rem;
     font-weight: 500;
 }
 
-.nav-container input[type="checkbox"]:checked ~ .menu-items { transform: translateX(0); }
+header .navbar .nav-container input[type="checkbox"]:checked ~ .menu-items { transform: translateX(0); }
 
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 { transform: rotate(45deg); }
+header .navbar .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 { transform: rotate(45deg); }
 
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 { transform: scaleY(0); }
+header .navbar .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 { transform: scaleY(0); }
 
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 { transform: rotate(-45deg); }
+header .navbar .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 { transform: rotate(-45deg); }
 
-.nav-container input[type="checkbox"]:checked ~ .logo { display: none;  }
+header .navbar .nav-container input[type="checkbox"]:checked ~ header .logo { display: none; }
+
+header .navbar .nav-container input[type="checkbox"]:checked ~ header .navbar-line { display: none !important; }
 
 /*** ⬆️ Header & navbar ⬆️ ***/
 
@@ -988,18 +986,8 @@ footer #network-container img:hover {
 @media only screen and (max-width: 1050px) {
 
     /*** ⬇️ Header ⬇️ ***/
-
-    .logo {
-
-        width: 125px;
-        height: 120px;
-    }
-
-    header {  height: 120px;  }
-
-    header ul { display: none ; }
-
-    .navbar { display: block !important; }
+    
+    header .logo { width: 15%; }
     
     /*** ⬆️ Header ⬆️ ***/
 
@@ -1017,11 +1005,11 @@ footer #network-container img:hover {
 
     #container_slider {
 
-        margin-top: 20%;
+        margin-top: 12%;
         height: 360px;
     }
 
-    #container_slider .carrousel_container {  background-size: cover; }
+    #container_slider .carrousel_container { background-size: cover; }
 
     /*** ⬆️ Caroussel (Slider) ⬆️ ***/
 
@@ -1140,6 +1128,18 @@ footer #network-container img:hover {
 /* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '950px' ⬇️ */ 
 @media screen and (max-width: 950px) {
 
+
+    /*** ⬇️ Header ⬇️ ***/
+
+    header { height: 15vh; }
+    header .logo { width: 15%; }
+    
+    header .navbar { display: block !important; }
+    header .navbar-line { display: none !important; }
+
+    /*** ⬆️ Header ⬆️ ***/
+
+
     /*** ⬇️ Section des produits et jeux ⬇️ ***/
 
     #container-product_game .subcontainer-product_game .content-product_game #title_product { margin-bottom: 10px; }
@@ -1151,7 +1151,7 @@ footer #network-container img:hover {
 
     #section-contact { 
         
-        padding: 300px 0 0 0; 
+        padding: 400px 0 100px 0; 
         width: 100%;
         justify-content: center;
         align-items: center;
@@ -1198,6 +1198,35 @@ footer #network-container img:hover {
     }
 
     /*** ⬆️ Section Contact  ⬆️ ***/
+
+
+    
+    /*** ⬇️ Footer ⬇️ ***/
+
+    footer {
+
+        padding: 10px 5px;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    footer #info-footer {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+    }
+
+    footer #info-footer p {
+        
+        font-size: small;
+    }
+            
+    /*** ⬆️ Footer ⬆️ ***/
     
 }
 /* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '950px' ⬇️ */ 
@@ -1206,6 +1235,14 @@ footer #network-container img:hover {
 
 /* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '915px' ⬇️ */ 
 @media screen and (max-width: 915px) {
+    
+    /*** ⬇️ Header ⬇️ ***/
+
+    header { height: 15vh; }
+    header .logo { width: 15%; }
+
+    /*** ⬆️ Header ⬆️ ***/
+
 
     /*** ⬇️ Section des produits et jeux ⬇️ ***/
 
@@ -1221,6 +1258,7 @@ footer #network-container img:hover {
 
 /* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '856px' ⬇️ */ 
 @media screen and (max-width: 856px) {
+
 
     /*** ⬇️ Section des produits et jeux ⬇️ ***/
 
@@ -1293,6 +1331,14 @@ footer #network-container img:hover {
 /* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '750px' ⬇️ */ 
 @media screen and (max-width: 750px) {
 
+     /*** ⬇️ Header ⬇️ ***/
+
+     header { height: 15vh; }
+     header .logo { width: 20%; }
+ 
+     /*** ⬆️ Header ⬆️ ***/
+
+        
     /*** ⬇️ Section pour l'Équipe ⬇️ ***/
 
     #section-teams { padding-top: 10px; }
@@ -1305,7 +1351,8 @@ footer #network-container img:hover {
 
 /* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '560px' ⬆️ */
 @media screen and (max-width: 560px) {
-
+        
+    
     /*** ⬇️ Titre Slider ⬇️ ***/
 
     .container-title { margin: 0 15px; }
@@ -1344,7 +1391,15 @@ footer #network-container img:hover {
 
 /* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '470px' ⬇️ */   
 @media screen and (max-width: 470px) {
+        
+    /*** ⬇️ Header ⬇️ ***/
 
+    header { height: 15vh; }
+    header .logo { width: 25%; }
+
+    /*** ⬆️ Header ⬆️ ***/
+
+        
     /*** ⬇️ Cards des Produits & Jeux ⬇️ ***/
 
     #section-product .container-product .product_card, #section-game .container-game .game_card { width: 100%; }

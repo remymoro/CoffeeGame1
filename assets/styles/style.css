@@ -1152,7 +1152,7 @@ footer #network-container img:hover {
     #section-contact { 
         
         padding: 300px 0 0 0; 
-    
+        width: 100%;
     }
     #section-contact .container-contact { 
 

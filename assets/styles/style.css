@@ -1152,6 +1152,8 @@ footer #network-container img:hover {
         display: flex;
         flex-direction: column;
     }
+
+    #section-contact .container-contact .contact-map { width: 90%; }
     /*** ⬆️ Section Contact  ⬆️ ***/
     
 }

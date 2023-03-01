@@ -1067,7 +1067,7 @@ footer #network-container img:hover {
 
 
 
-    /*** ⬇️ Section contact ⬇️ ***/
+    /*** ⬇️ Section Contact ⬇️ ***/
 
     #section-contact .container-contact .contact-info .container-info .icon-contact,  #section-contact .contact-info .container-info .text-contact { 
 
@@ -1075,7 +1075,7 @@ footer #network-container img:hover {
         flex-direction: column;
         font-size: smaller;
     }
-    /*** ⬆️ Section contact  ⬆️ ***/
+    /*** ⬆️ Section Contact  ⬆️ ***/
 
 
 
@@ -1143,6 +1143,12 @@ footer #network-container img:hover {
     #container-product_game .subcontainer-product_game .content-product_game #title_product { margin-bottom: 10px; }
 
     /*** ⬆️ Section des produits et jeux ⬆️ ***/
+    
+    
+    /*** ⬇️ Section Contact ⬇️ ***/
+
+    #section-contact .container-contact {  flex-direction: column; }
+    /*** ⬆️ Section Contact  ⬆️ ***/
     
 }
 /* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '950px' ⬇️ */ 

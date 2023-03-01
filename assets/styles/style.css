@@ -1155,12 +1155,13 @@ footer #network-container img:hover {
         flex-direction: column;
     }
 
-    #section-contact .container-contact .contact-info .container-info  {  width: 100%; }
+    #section-contact .container-contact .contact-info .container-info  { width: 100%; }
 
-    #section-contact .container-contact .contact-info .container-info  {  line-height: 50px;}
+    #section-contact .container-contact .contact-info .container-info  { line-height: 50px;}
 
     #section-contact .container-contact .contact-info .container-info .text-contact p { font-size: small; }
 
+    #section-contact .container-contact .contact-info .container-contact .contact-map { width: 100%; }
     #section-contact .container-contact .contact-info .container-contact .contact-map iframe { width: 50%; }
     /*** ⬆️ Section Contact  ⬆️ ***/
     

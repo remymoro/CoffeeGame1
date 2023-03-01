@@ -1308,7 +1308,7 @@ footer #network-container img:hover {
         gap: 2rem;
     }
     
-    footer #network-container img { width: 32px; }
+    footer #network-container img { height: 32px; }
             
     /*** ⬆️ Footer ⬆️ ***/
     

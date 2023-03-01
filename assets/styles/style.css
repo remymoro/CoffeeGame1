@@ -1548,7 +1548,11 @@ footer #network-container img:hover {
         width: 300px;
     } 
 
-    #section-teams .container-teams_card .teams_card { bottom: -550px !important; }
+    #section-teams .container-teams_card .teams_card { 
+        
+        bottom: -550px !important; 
+        height: 50%;
+    }
 
     #section-teams .container-teams_card .teams_card .card {
 

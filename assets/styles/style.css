@@ -248,7 +248,7 @@ header .navbar .menu-items {
     padding-top: 120px;
     height: 100vh;
     width: 30%;
-    transform: translate(225%, 0%);
+    transform: translate(500%, 0%);
     display: flex;
     flex-direction: column;
     transition: transform 1.5s ease-in-out;

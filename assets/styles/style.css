@@ -1362,7 +1362,7 @@ footer #network-container img:hover {
     /*** ⬇️ Section pour l'Équipe ⬇️ ***/
 
     #section-teams { padding-top: 100px; }
-    #section-teams .container-teams_card .teams_card { bottom: -500px; }
+    #section-teams .container-teams_card .teams_card { bottom: -700px !important; }
     
     /*** ⬆️ Section pour l'Équipe ⬇️  ***/
 
@@ -1373,7 +1373,7 @@ footer #network-container img:hover {
     #section-contact { 
         
         max-width: 950px;
-        padding: 600px 0 100px 0; 
+        padding: 750px 0 100px 0; 
         justify-content: center;
         align-items: center;
     }
@@ -1476,14 +1476,6 @@ footer #network-container img:hover {
 
     #section-teams { padding-top: 300px; }
 
-    #section-teams .container-teams_card .teams_card { bottom: -400px; }
-    
-    #section-teams .container-teams_card .teams_card .card {
-
-        width: 200px !important;
-        height: 200px !important;
-    }
-
     /*** ⬆️ Section Équipes ⬆️ ***/
 }
 /* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '915px' ⬇️ */ 
@@ -1556,12 +1548,12 @@ footer #network-container img:hover {
         width: 300px;
     } 
 
-    #section-teams .container-teams_card .teams_card { bottom: -350px; }
+    #section-teams .container-teams_card .teams_card { bottom: -550px !important; }
 
     #section-teams .container-teams_card .teams_card .card {
 
-        width: 150px !important;
-        height: 150px !important;
+        width: 200px !important;
+        height: 200px !important;
     }
     
     #section-teams .teams_card .card .card_picture {

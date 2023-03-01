@@ -1190,13 +1190,6 @@ footer #network-container img:hover {
 
     /*** ⬆️ Header ⬆️ ***/
 
-    
-    /*** ⬇️ Caroussel (Slider) ⬇️ ***/
-
-    #container_slider { width: 100%; }
-
-    /*** ⬆️ Caroussel (Slider) ⬆️ ***/
-
 
     /*** ⬇️ Section des produits et jeux ⬇️ ***/
 
@@ -1314,6 +1307,8 @@ footer #network-container img:hover {
         justify-content: center;
         gap: 2rem;
     }
+    
+    footer #network-container img { width: 32px; }
             
     /*** ⬆️ Footer ⬆️ ***/
     

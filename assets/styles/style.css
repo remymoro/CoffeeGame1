@@ -19,8 +19,7 @@ body {
 }
 
 .container {
-    
-    max-width: 1200px;
+
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -418,7 +417,6 @@ i { font-size: 45px; }
 
 #section-product, #section-game {
 
-   max-width: 1200px;
    padding: 0 20px;
    margin: 200px auto 100px auto;
    display: flex;
@@ -427,7 +425,7 @@ i { font-size: 45px; }
    align-items: flex-start;
 }
 
-#section-game { max-width: 1500px; }
+/* #section-game { max-width: 1500px; } */
 
 #section-product .container-product, #section-game .container-game { margin: 20px 0; }
 
@@ -463,13 +461,21 @@ i { font-size: 45px; }
 #section-product .container-product .product_card, #section-game .container-game .game_card {
    
     width: 85%;
-    border-radius: 20px;
+    height: 90%;
+    border-radius: 15px;
     transform: scale(1);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
     padding: 0.5rem;
     margin-bottom: 20px;
     cursor: pointer;
 }
+
+#section-product .container-product .product_card .product_content, #section-game .container-game .game_card .game_content {
+   
+   white-space: pre; 
+   line-height: 15px;
+}
+
 #section-game .container-game .game_card { 
     
     width: 100%; 
@@ -482,6 +488,7 @@ i { font-size: 45px; }
     grid-template-rows: repeat(1, 1fr);  
     grid-template-columns: 1fr 1fr;
 }
+
 
 #section-product .container-product .product_card:hover, #section-game .container-game .game_card:hover {
 
@@ -520,11 +527,10 @@ i { font-size: 45px; }
 
 #section-product_game {
    
-   max-width: 1500px;
    margin: 0 auto 600px auto;
    padding: 100px 10px;
    display: grid;
-   grid-template-columns: repeat(auto-fill, 300px);
+   grid-template-columns: repeat(auto-fill, 1fr);
    grid-auto-rows: 150px;
    justify-content: center;
 }
@@ -619,11 +625,10 @@ i { font-size: 45px; }
 /*** ⬇️ Section pour l'Équipe ⬇️ ***/
 
 #section-teams {
-
-    max-width: 1400px;
-    margin: 0 auto;
+    
     position: relative;
     margin-top: 1.5rem;
+    width: 100%;
 }
  
 .teams_title {
@@ -647,15 +652,21 @@ i { font-size: 45px; }
     height: 100%;
 }
 
-#section-teams .container-teams_card .teams_card { height: 55vh; }
+#section-teams .container-teams_card { 
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 #section-teams .container-teams_card .teams_card {
 
-    width: 100%;
+    width: 90%;
+    height: 55vh;
     position: absolute;
     bottom: -250px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     place-items: center;
     background-color: #444444;
     border-radius: 10px;
@@ -807,7 +818,7 @@ i { font-size: 45px; }
 
 #section-contact .contact-form div {
 
-    max-width: 600px;
+/*     max-width: 600px; */
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -918,7 +929,7 @@ footer #network-container img:hover {
 /*        MEDIAS QUERIES (Responsive)         */
 /**********************************************/
 
-/* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '1100px' ⬆️ */    
+/* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '1400px' ⬆️ */    
 @media screen and (max-width: 1400px) {
 
     /*** ⬇️ Cards des Produits & Jeux ⬇️ ***/
@@ -983,6 +994,45 @@ footer #network-container img:hover {
     #container-product_game .subcontainer-product_game .content-product_game .button  { margin-bottom: 20px; }
     
     /*** ⬆️ Section des produits et jeux ⬆️ ***/
+}
+/* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '1400px' ⬆️ */    
+ 
+/* ----------------------------------------------------------------- */
+
+/* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '1100px' ⬆️ */    
+@media screen and (max-width: 1100px) {
+
+
+    /*** ⬇️ Section Équipes ⬇️ ***/
+
+    #section-teams .teams_picture img { width: 400px; }
+
+
+    #section-teams .teams_picture {
+
+        display: flex;
+        justify-content: center;
+        height: 500px;
+        margin: 0 auto;
+    } 
+
+    #section-teams .container-teams_card {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    #section-teams .container-teams_card .teams_card {
+        
+        width: 95%;
+        height: 100%;
+        position: absolute;
+        bottom: -400px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-radius: 10px;
+    }
+    /*** ⬆️ Section Équipes ⬆️ ***/
 }
 /* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '1100px' ⬆️ */    
  
@@ -1074,36 +1124,7 @@ footer #network-container img:hover {
     /*** ⬆️ Section Contact  ⬆️ ***/
 
 
-
     /*** ⬇️ Section Équipes ⬇️ ***/
-
-    #section-teams .teams_picture img { width: 400px; }
-
-
-    #section-teams .teams_picture {
-
-        display: flex;
-        justify-content: center;
-        height: 500px;
-        margin: 0 auto;
-    } 
-
-    #section-teams .container-teams_card {
-
-        display: flex;
-        justify-content: center;
-    }
-
-    #section-teams .container-teams_card .teams_card {
-        
-        width: 95%;
-        height: 100%;
-        position: absolute;
-        bottom: -400px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        border-radius: 10px;
-    }
 
     #section-teams .container-teams_card .teams_card .card {
 
@@ -1199,7 +1220,7 @@ footer #network-container img:hover {
 
     #section-contact .contact-form { 
 
-        width: 95%; 
+        width: 90%; 
         padding: 3rem 2rem;
     }
 

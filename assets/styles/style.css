@@ -209,11 +209,12 @@ header .navbar .nav-container .checkbox {
 header .navbar .nav-container .hamburger-lines {
 
     display: block;
+    width: 100%;
     height: 26px;
     width: 32px;
     position: absolute;
     top: 45px;
-    right: 45px;
+    right: 50px;
     z-index: 999;
     display: flex;
     flex-direction: column;

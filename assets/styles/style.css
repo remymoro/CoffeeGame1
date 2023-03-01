@@ -770,9 +770,7 @@ i { font-size: 45px; }
     line-height: 100px;
 }
 
-#section-contact .contact-info .container-info .icon-contact i, #section-contact .contact-map iframe { 
-    filter: drop-shadow(0 0 0.20rem black);
-}
+#section-contact .contact-info .container-info .icon-contact i, #section-contact .contact-map iframe { filter: drop-shadow(0 0 0.20rem black);}
     
 #section-contact .contact-info .container-info .icon-contact,  #section-contact .contact-info .container-info .text-contact { 
 
@@ -1104,21 +1102,6 @@ footer #network-container img:hover {
         height: 200px !important;
     }
 
-    
-    
-
-    #section-contact .container-contact{
-     display: flex;
-     flex-direction: column;
-    }
-
-
-  .contact-map iframe{
-    width: 250px;
-    height: 250px;
-  }
-
-
     /*** ⬆️ Section Équipes ⬆️ ***/
 }
 /* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '1050px' ⬆️ */    
@@ -1153,13 +1136,17 @@ footer #network-container img:hover {
 
     /*** ⬇️ Titre Slider ⬇️ ***/
 
-
     .container-title { margin: 0 15px; }
     .title { font-size: larger !important; }
     .slogan { font-size: medium !important; }
     
     /*** ⬆️ Titre Slider ⬆️ ***/
 
+    /*** ⬇️ Cards d'Infos ⬇️ ***/
+
+    .card_text { font-size: small;}
+
+    /*** ⬆️ Cards d'Infos ⬆️ ***/
 
     /*** ⬇️ Cards des Produits & Jeux ⬇️ ***/
 

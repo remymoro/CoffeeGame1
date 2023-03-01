@@ -88,7 +88,7 @@ img { max-width: 100%; }
 
 /* --------------------------------------- */
 
-.d-none { display: none; }
+.d-none { display: none !important; }
 
 h1 {
     display: flex;
@@ -281,9 +281,6 @@ header .navbar .nav-container input[type="checkbox"]:checked ~ .hamburger-lines 
 
 header .navbar .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 { transform: rotate(-45deg); }
 
-header .navbar .nav-container input[type="checkbox"]:checked ~ header .logo { display: none; }
-
-header .navbar .nav-container input[type="checkbox"]:checked ~ header .navbar-line { display: none; }
 
 /*** ⬆️ Header & navbar ⬆️ ***/
 
@@ -427,8 +424,6 @@ i { font-size: 45px; }
    flex-direction: column;
    align-items: flex-start;
 }
-
-/* #section-game { max-width: 1500px; } */
 
 #section-product .container-product, #section-game .container-game { margin: 20px 0; }
 
@@ -951,8 +946,23 @@ footer #network-container img:hover {
 /*        MEDIAS QUERIES (Responsive)         */
 /**********************************************/
 
+/* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '1650px' ⬆️ */    
+@media screen and (max-width: 1650px) {
+
+    /*** ⬇️ Header ⬇️ ***/
+    
+    header .logo { width: 15%; }
+    
+    /*** ⬆️ Header ⬆️ ***/
+
+}
+/* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '1650px' ⬆️ */  
+
+/* ----------------------------------------------------------------- */
+
 /* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '1400px' ⬆️ */    
 @media screen and (max-width: 1400px) {
+
 
     /*** ⬇️ Cards des Produits & Jeux ⬇️ ***/
 
@@ -1037,11 +1047,29 @@ footer #network-container img:hover {
 /* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '1180px' ⬆️ */    
 @media screen and (max-width: 1180px) {
 
+    /*** ⬇️ Header ⬇️ ***/
+
+    header .logo { width: 20%; }
+
+    /*** ⬆️ Header ⬆️ ***/
+    
     /*** ⬇️ Section des produits et jeux ⬇️ ***/
 
     #container-product_game .subcontainer-product_game .content-product_game #title_product::before { bottom: 5px; }
     
     /*** ⬆️ Section des produits et jeux ⬆️ ***/
+
+    
+    /*** ⬇️ Section Équipes ⬇️ ***/
+
+    #section-teams .container-teams_card .teams_card .card {
+
+        width: 230px !important;
+        height: 230px !important;
+    }
+
+    /*** ⬆️ Section Équipes ⬆️ ***/
+
 }
 /* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '1180px' ⬆️ */    
  
@@ -1089,12 +1117,6 @@ footer #network-container img:hover {
 /* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '1050px' ⬇️ */
 @media only screen and (max-width: 1050px) {
 
-    /*** ⬇️ Header ⬇️ ***/
-    
-    header .logo { width: 15%; }
-    
-    /*** ⬆️ Header ⬆️ ***/
-
 
     /*** ⬇️ Page des Jeux ⬇️ ***/
 
@@ -1109,8 +1131,8 @@ footer #network-container img:hover {
 
     #container_slider {
         
-        margin-top: 12%;
-        height: 360px;
+        margin-top: 18%;
+        height: 400px;
     }
 
     #container_slider .carrousel_container { background-size: cover; }
@@ -1145,6 +1167,7 @@ footer #network-container img:hover {
 
     /*** ⬆️ Section des produits et jeux ⬆️ ***/
 
+
     /*** ⬇️ Who (Qui Sommes-Nous) ⬇️ ***/
 
     .who {
@@ -1170,17 +1193,6 @@ footer #network-container img:hover {
         font-size: smaller;
     }
     /*** ⬆️ Section Contact  ⬆️ ***/
-
-
-    /*** ⬇️ Section Équipes ⬇️ ***/
-
-    #section-teams .container-teams_card .teams_card .card {
-
-        width: 200px;
-        height: 200px;
-    }
-
-    /*** ⬆️ Section Équipes ⬆️ ***/
 }
 /* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '1050px' ⬆️ */    
 
@@ -1248,7 +1260,6 @@ footer #network-container img:hover {
     
 
     /*** ⬆️ Cards des Produits & Jeux ⬇️ ***/
-    
 }
 /* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '1025px' ⬇️ */ 
 
@@ -1261,13 +1272,18 @@ footer #network-container img:hover {
     /*** ⬇️ Header ⬇️ ***/
 
     header { height: 15vh; }
-
-    header .logo { width: 15%; }
     
-    header .navbar { display: block; }
+    header .navbar { display: block !important; }
     header .navbar-line { display: none; }
 
     /*** ⬆️ Header ⬆️ ***/
+
+    
+    /*** ⬇️ Caroussel (Slider) ⬇️ ***/
+
+    #container_slider { margin-top: 15%;  }
+
+    /*** ⬆️ Caroussel (Slider) ⬆️ ***/
 
 
     /*** ⬇️ Section des produits et jeux ⬇️ ***/
@@ -1347,6 +1363,7 @@ footer #network-container img:hover {
 
     #section-teams { padding-top: 100px; }
     #section-teams .container-teams_card .teams_card { bottom: -500px; }
+    
 
     /*** ⬆️ Section pour l'Équipe ⬇️  ***/
 
@@ -1454,13 +1471,17 @@ footer #network-container img:hover {
 
 /* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '915px' ⬇️ */ 
 @media screen and (max-width: 915px) {
-    
-    /*** ⬇️ Header ⬇️ ***/
 
-    header { height: 15vh; }
-    header .logo { width: 15%; }
 
-    /*** ⬆️ Header ⬆️ ***/
+    /*** ⬇️ Section Équipes ⬇️ ***/
+
+    #section-teams .container-teams_card .teams_card .card {
+
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    /*** ⬆️ Section Équipes ⬆️ ***/
 }
 /* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '915px' ⬇️ */ 
 
@@ -1471,8 +1492,7 @@ footer #network-container img:hover {
 
      /*** ⬇️ Header ⬇️ ***/
 
-     header { height: 15vh; }
-     header .logo { width: 20%; }
+     header .logo { width: 25%; }
  
      /*** ⬆️ Header ⬆️ ***/
 }
@@ -1482,8 +1502,13 @@ footer #network-container img:hover {
 
 /* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '560px' ⬆️ */
 @media screen and (max-width: 560px) {
-        
-    
+
+    /*** ⬇️ Header ⬇️ ***/
+
+    header .logo { width: 35%; }
+
+    /*** ⬆️ Header ⬆️ ***/
+
     /*** ⬇️ Titre Slider ⬇️ ***/
 
     .container-title { margin: 0 15px; }
@@ -1500,37 +1525,6 @@ footer #network-container img:hover {
     /*** ⬆️ Cards d'Infos ⬆️ ***/
 
 
-    /*** ⬇️ Cards des Produits & Jeux ⬇️ ***/
-
-    #section-product .container-product .product_card, #section-game .container-game .game_card { width: 100%; }
-    
-
-    #section-product .container-product .product_cards, #section-game .container-game .game_cards {
-
-        display: grid;
-        grid-template-columns: 2fr;
-        grid-template-rows: 2fr;
-    }
-
-    #section-product .container-product .card, #section-game .container-game .card { width: 100%; }
-
-    /*** ⬆️ Cards des Produits & Jeux ⬇️ ***/
-}
-/* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '560px' ⬆️ */    
-
-/* ----------------------------------------------------------------- */
-
-/* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '470px' ⬇️ */   
-@media screen and (max-width: 470px) {
-        
-    /*** ⬇️ Header ⬇️ ***/
-
-    header { height: 15vh; }
-    header .logo { width: 25%; }
-
-    /*** ⬆️ Header ⬆️ ***/
-
-        
     /*** ⬇️ Cards des Produits & Jeux ⬇️ ***/
 
     #section-product .container-product .product_card, #section-game .container-game .game_card { width: 100%; }
@@ -1559,12 +1553,12 @@ footer #network-container img:hover {
         width: 300px;
     } 
 
-    #section-teams .container-teams_card .teams_card { bottom: -250px; }
+    #section-teams .container-teams_card .teams_card { bottom: -350px; }
 
     #section-teams .container-teams_card .teams_card .card {
 
-        width: 150px;
-        height: 150px;
+        width: 150px !important;
+        height: 150px !important;
     }
     
     #section-teams .teams_card .card .card_picture {
@@ -1574,8 +1568,13 @@ footer #network-container img:hover {
     }
 
     /*** ⬆️ Section pour l'Équipe ⬇️  ***/
+}
+/* ⬆️ Stylisation jusqu'à une taille d'écran maximal de '560px' ⬆️ */    
 
-    
+/* ----------------------------------------------------------------- */
+
+/* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '470px' ⬇️ */   
+@media screen and (max-width: 470px) {
     
     /*** ⬇️ Footer ⬇️ ***/
     

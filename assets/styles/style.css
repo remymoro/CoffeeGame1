@@ -1550,8 +1550,8 @@ footer #network-container img:hover {
 
     #section-teams .container-teams_card .teams_card { 
         
-        bottom: -550px !important; 
-        height: 50%;
+        bottom: -330px !important; 
+        height: 65%;
     }
 
     #section-teams .container-teams_card .teams_card .card {

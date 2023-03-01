@@ -1153,7 +1153,7 @@ footer #network-container img:hover {
 
         display: flex;
         flex-direction: column;
-        line-height: 50px;
+        line-height: 0;
     }
     #section-contact .container-contact .contact-info .container-info .text-contact p { font-size: smaller; }
 

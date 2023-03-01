@@ -1164,12 +1164,7 @@ footer #network-container img:hover {
     }
 
     #section-product .container-product .card, #section-game .container-game .card { width: 70%; }
-
-    #section-game .container-game .game_picture {
-
-        width: 90%;
-        height: 100%;
-    }
+    
 
     /*** ⬆️ Cards des Produits & Jeux ⬇️ ***/
     
@@ -1204,6 +1199,19 @@ footer #network-container img:hover {
 
     /*** ⬆️ Section des produits et jeux ⬆️ ***/
     
+    
+    /*** ⬇️ Cards des Produits & Jeux ⬇️ ***/
+
+    #section-product .container-product .product_card, #section-game .container-game .game_card {
+
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    
+
+    /*** ⬆️ Cards des Produits & Jeux ⬇️ ***/
+
     
     /*** ⬇️ Section Contact ⬇️ ***/
 

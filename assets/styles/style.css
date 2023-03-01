@@ -1205,10 +1205,18 @@ footer #network-container img:hover {
     #section-game .container-game .game_card {
 
         grid-template-columns: 1fr;
+        margin: 20px 0;
         width: 100%;
         height: 100%;
     }
-    #section-game .container-game .game_card .game_picture img { width: 100%; }
+
+    #section-game .container-game .game_card .game_picture { width: 100%; }
+
+    #section-game .container-game .game_card .game_picture img { 
+        
+        width: 100%; 
+        height: auto;
+    }
     
 
     /*** ⬆️ Cards des Jeux ⬇️ ***/

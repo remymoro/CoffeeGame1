@@ -1240,7 +1240,7 @@ footer #network-container img:hover {
 
     /*** ⬇️ Section des produits et jeux ⬇️ ***/
 
-    #section-product_game { margin-bottom: 10px !important; }
+    #section-product_game { padding-bottom: 10px; }
     
     /*** ⬆️ Section des produits et jeux ⬆️ ***/
 }

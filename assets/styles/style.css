@@ -1062,7 +1062,7 @@ footer #network-container img:hover {
     /*** ⬇️ Caroussel (Slider) ⬇️ ***/
 
     #container_slider {
-
+        
         margin-top: 12%;
         height: 360px;
     }
@@ -1181,7 +1181,7 @@ footer #network-container img:hover {
 
     /*** ⬇️ Header ⬇️ ***/
 
-    header {  height: 15vh; }
+    header { height: 15vh; }
 
     header .logo { width: 15%; }
     
@@ -1189,6 +1189,13 @@ footer #network-container img:hover {
     header .navbar-line { display: none !important; }
 
     /*** ⬆️ Header ⬆️ ***/
+
+    
+    /*** ⬇️ Caroussel (Slider) ⬇️ ***/
+
+    #container_slider { width: 100%; }
+
+    /*** ⬆️ Caroussel (Slider) ⬆️ ***/
 
 
     /*** ⬇️ Section des produits et jeux ⬇️ ***/

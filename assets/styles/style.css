@@ -1268,11 +1268,7 @@ footer #network-container img:hover {
     
     #section-contact .container-contact .contact-map iframe { width: 90%; }
 
-    #section-contact .contact-form { 
-
-        width: 90%; 
-        padding: 3rem 2rem;
-    }
+    #section-contact .contact-form { padding: 3rem 2rem; }
 
     /*** ⬆️ Section Contact  ⬆️ ***/
 

@@ -1506,6 +1506,7 @@ footer #network-container img:hover {
 
     /*** ⬆️ Header ⬆️ ***/
 
+
     /*** ⬇️ Section Équipes ⬇️ ***/   
 
     #section-teams { padding-top: 50px; }
@@ -1618,6 +1619,14 @@ footer #network-container img:hover {
 
 /* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '470px' ⬇️ */   
 @media screen and (max-width: 470px) {
+
+
+    /*** ⬇️ Section Équipes ⬇️ ***/   
+
+    #section-teams { padding-top: 200px; }
+    #section-teams .container-teams_card .teams_card { bottom: -450px !important; }
+    
+    /*** ⬆️ Section Équipes ⬆️ ***/
 
 
     /*** ⬇️ Footer ⬇️ ***/

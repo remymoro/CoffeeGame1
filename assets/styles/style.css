@@ -1566,8 +1566,6 @@ footer #network-container img:hover {
 
     /*** ⬇️ Section pour l'Équipe ⬇️ ***/
 
-    /* #section-teams { padding-top: 300px; } */
-
     #section-teams .teams_picture img { width: 300px; }
 
 
@@ -1611,7 +1609,12 @@ footer #network-container img:hover {
 @media screen and (max-width: 470px) {
     
     
+    /*** ⬇️ Section pour l'Équipe ⬇️ ***/
+
     #section-teams { padding-top: 300px; }
+
+    /*** ⬆️ Section pour l'Équipe ⬆️ ***/
+
 
     /*** ⬇️ Footer ⬇️ ***/
     

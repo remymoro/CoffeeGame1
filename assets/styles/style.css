@@ -1486,7 +1486,7 @@ footer #network-container img:hover {
 
     /*** ⬇️ Section Équipes ⬇️ ***/
 
-    #section-teams { padding-top: 25vh; }
+    #section-teams { padding-top: 5px; }
 
     /*** ⬆️ Section Équipes ⬆️ ***/
 }
@@ -1504,6 +1504,13 @@ footer #network-container img:hover {
     /*** ⬆️ Header ⬆️ ***/
 
      
+    /*** ⬇️ Section Équipes ⬇️ ***/
+
+    #section-teams { padding-top: 300px; }
+
+    /*** ⬆️ Section Équipes ⬆️ ***/
+
+
     /*** ⬇️ Cards des Jeux ⬇️ ***/
 
     #section-game .container-game .game_card { width: 80%; }

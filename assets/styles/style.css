@@ -1494,20 +1494,6 @@ footer #network-container img:hover {
 
 /* ----------------------------------------------------------------- */
 
-/* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '915px' ⬇️ */ 
-@media screen and (max-width: 915px) and (max-height: 2408px) {
-
-
-    /*** ⬇️ Section Équipes ⬇️ ***/
-
-    #section-teams { padding-top: 0; }
-
-    /*** ⬆️ Section Équipes ⬆️ ***/
-}
-/* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '915px' ⬇️ */ 
-
-/* ----------------------------------------------------------------- */
-
 /* ⬇️ Stylisation jusqu'à une taille d'écran maximal de '750px' ⬇️ */ 
 @media screen and (max-width: 750px) {
 

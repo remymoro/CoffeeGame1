@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap%27');
 
+@-webkit-keyframes slide { 100% { right: 0; } }
+@keyframes slide { 100% { right: 0; } }
+
 /* --------------------------------------- */
 
 * {
@@ -321,9 +324,11 @@ header .navbar .nav-container input[type="checkbox"]:checked ~ .hamburger-lines 
 
 
 #container_slider .fade { 
-
-    animation-name: fade;
-    animation-duration: 3s;
+    
+  position: relative;
+  right: -10000px;
+  animation: slide 0.5s forwards;
+  -webkit-animation: slide 0.5s forwards;
 }
 
 

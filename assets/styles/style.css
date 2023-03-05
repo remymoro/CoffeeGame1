@@ -323,12 +323,12 @@ header .navbar .nav-container input[type="checkbox"]:checked ~ .hamburger-lines 
 #container_slider #img-3 { background-image: url(../images/carrousel/carrousel-3.jpg); }   
 
 
-#container_slider .fade { 
+#container_slider .animation { 
     
   position: relative;
   right: -10000px;
-  animation: slide 0.5s forwards;
-  -webkit-animation: slide 0.5s forwards;
+  animation: slide 0.2s forwards;
+  -webkit-animation: slide 0.2s forwards;
 }
 
 

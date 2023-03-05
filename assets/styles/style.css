@@ -326,8 +326,8 @@ header .navbar .nav-container input[type="checkbox"]:checked ~ .hamburger-lines 
 #container_slider .animation { 
     
   opacity 0;
-  animation: slide 0.2s forwards;
-  -webkit-animation: slide 0.2s forwards;
+  animation: slide 1s forwards;
+  -webkit-animation: slide 1s forwards;
 }
 
 

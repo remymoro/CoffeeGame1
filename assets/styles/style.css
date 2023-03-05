@@ -326,7 +326,7 @@ header .navbar .nav-container input[type="checkbox"]:checked ~ .hamburger-lines 
 #container_slider #img-3 { background-image: url(../images/carrousel/carrousel-3.jpg); }   
 
 
-#container_slider .carrousel_container .fade { animation: fade 1s ease-in 1s; }
+#container_slider .fade { animation: fade 1s ease-in 1s; }
 
 
 .text {

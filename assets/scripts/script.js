@@ -26,7 +26,7 @@ function showSlides() {
     }
                     /* -------------- */
 
-    if(slides[slideIndex-1].classList.contains('d-none')) { slides[slideIndex-1].classList.remove('hide-opacity'); }
+    if(slides[slideIndex-1].classList.contains('hide-opacity')) { slides[slideIndex-1].classList.remove('hide-opacity'); }
     
     setTimeout(showSlides, 5000); // Change l'image toutes les 5 secondes
 }

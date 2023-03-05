@@ -21,12 +21,12 @@ function showSlides() {
 
     for(let slide of slides) {
         
-        if(!slide.classList.contains('hide-opacity')) { slide.classList.add('hide-opacity'); }
+        if(!slide.classList.contains('d-none hide-opacity')) { slide.classList.add('d-none hide-opacity'); }
         
     }
                     /* -------------- */
 
-    if(slides[slideIndex-1].classList.contains('hide-opacity')) { slides[slideIndex-1].classList.remove('hide-opacity'); }
+    if(slides[slideIndex-1].classList.contains('d-none hide-opacity')) { slides[slideIndex-1].classList.remove('d-none hide-opacity'); }
     
     setTimeout(showSlides, 5000); // Change l'image toutes les 5 secondes
 }

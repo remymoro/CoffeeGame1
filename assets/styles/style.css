@@ -2,10 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap%27');
 
-@keyframes fade {
+@keyframes slide {
        
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% { width: 0%; }
+    100% { width: auto; }
 }
 
 /* --------------------------------------- */
@@ -98,8 +98,6 @@ img { max-width: 100%; }
 /* --------------------------------------- */
 
 .d-none { display: none !important; }
-
-.hide-opacity { opacity: 0; }
 
 h1 {
     display: flex;
@@ -328,7 +326,7 @@ header .navbar .nav-container input[type="checkbox"]:checked ~ .hamburger-lines 
 #container_slider #img-3 { background-image: url(../images/carrousel/carrousel-3.jpg); }   
 
 
-#container_slider .fade { animation: fade 1s ease-in 1s; }
+#container_slider .fade { animation: slide 1s ease-in 1s; }
 
 
 .text {

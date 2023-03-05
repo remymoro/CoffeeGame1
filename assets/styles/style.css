@@ -338,7 +338,7 @@ header .navbar .nav-container input[type="checkbox"]:checked ~ .hamburger-lines 
 #container_slider #img-3 { background-image: url(../images/carrousel/carrousel-3.jpg); }   
 
 
-#container_slider .animation::after { 
+#container_slider .animation { 
     
   animation: slide 0.2s forwards;
   -webkit-animation: slide 0.2s forwards;

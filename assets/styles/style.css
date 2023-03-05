@@ -8,9 +8,9 @@
     
   0% { opacity: 0; }
   20% { opacity: 0.3; }
-  40% { opacity: 0.6; }
-  60% { opacity: 0.8; }
-  80% { opacity: 0.9; }
+  40% { opacity: 0.8; }
+  60% { opacity: 0.9; }
+  80% { opacity: 1; }
   100% { opacity: 1; }
 }
 
@@ -20,9 +20,9 @@
     
   0% { opacity: 0; }
   20% { opacity: 0.3; }
-  40% { opacity: 0.6; }
-  60% { opacity: 0.8; }
-  80% { opacity: 0.9; }
+  40% { opacity: 0.8; }
+  60% { opacity: 0.9; }
+  80% { opacity: 1; }
   100% { opacity: 1; }
 }
 

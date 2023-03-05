@@ -2,15 +2,27 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap%27');
 
+            /* --------------------------------- */
+
 @-webkit-keyframes slide { 
     
-    50% { opacity 50%; } 
-    100% { opacity 100%; } 
+  0% { opacity: 0; }
+  20% { opacity: 0; }
+  40% { opacity: 0.3; }
+  60% { opacity: 0.5; }
+  80% { opacity: 0.9; }
+  100% { opacity: 1; }
 }
-@keyframes slide { 
-   
-    50% { opacity 50%; } 
-    100% { opacity 100%; } 
+
+            /* --------------------- */
+
+@keyframes slide {     
+  0% { opacity: 0; }
+  20% { opacity: 0; }
+  40% { opacity: 0.3; }
+  60% { opacity: 0.5; }
+  80% { opacity: 0.9; }
+  100% { opacity: 1; }
 }
 
 /* --------------------------------------- */
@@ -333,7 +345,6 @@ header .navbar .nav-container input[type="checkbox"]:checked ~ .hamburger-lines 
 
 #container_slider .animation { 
     
-  opacity 0%;
   animation: slide 3s forwards;
   -webkit-animation: slide 3s forwards;
 }

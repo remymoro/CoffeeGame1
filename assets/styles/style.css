@@ -101,8 +101,6 @@ img { max-width: 100%; }
 
 .hide-opacity { opacity: 0; }
 
-.show-opacity { opacity: 1; }
-
 h1 {
     display: flex;
     justify-content: center;

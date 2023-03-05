@@ -331,14 +331,14 @@ header .navbar .nav-container input[type="checkbox"]:checked ~ .hamburger-lines 
 }   
 
            
-#container_slider #img-1::after { background-image: url(../images/carrousel/carrousel-1.jpg); }  
+#container_slider #img-1 { background-image: url(../images/carrousel/carrousel-1.jpg); }  
 
-#container_slider #img-2::after { background-image: url(../images/carrousel/carrousel-2.jpg); }   
+#container_slider #img-2 { background-image: url(../images/carrousel/carrousel-2.jpg); }   
 
-#container_slider #img-3::after { background-image: url(../images/carrousel/carrousel-3.jpg); }   
+#container_slider #img-3 { background-image: url(../images/carrousel/carrousel-3.jpg); }   
 
 
-#container_slider .animation { 
+#container_slider .animation::after { 
     
   animation: slide 0.5s forwards;
   -webkit-animation: slide 0.5s forwards;

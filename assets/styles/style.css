@@ -2,8 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap%27');
 
-@-webkit-keyframes slide { 100% { opacity 1; } }
-@keyframes slide { 100% { opacity 1; } }
+@-webkit-keyframes slide { 
+    
+    50% { opacity 1; } 
+    100% { opacity 0; } 
+}
+@keyframes slide { 
+    
+    50% { opacity 1; } 
+    100% { opacity 0; } 
+}
 
 /* --------------------------------------- */
 

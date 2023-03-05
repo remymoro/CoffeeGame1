@@ -21,7 +21,7 @@ function showSlides() {
 
     for(let slide of slides) {
         
-        if(!slide.classList.contains('d-none')) { slide.classList.add('hide-opacity'); }
+        if(!slide.classList.contains('hide-opacity')) { slide.classList.add('hide-opacity'); }
         
     }
                     /* -------------- */

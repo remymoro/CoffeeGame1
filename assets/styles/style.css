@@ -4,13 +4,13 @@
 
 @-webkit-keyframes slide { 
     
-    50% { opacity 1; } 
-    100% { opacity 0; } 
+    50% { opacity 50%; } 
+    100% { opacity 100%; } 
 }
 @keyframes slide { 
-    
-    50% { opacity 1; } 
-    100% { opacity 0; } 
+   
+    50% { opacity 50%; } 
+    100% { opacity 100%; } 
 }
 
 /* --------------------------------------- */
@@ -333,7 +333,7 @@ header .navbar .nav-container input[type="checkbox"]:checked ~ .hamburger-lines 
 
 #container_slider .animation { 
     
-  opacity 0;
+  opacity 0%;
   animation: slide 3s forwards;
   -webkit-animation: slide 3s forwards;
 }
